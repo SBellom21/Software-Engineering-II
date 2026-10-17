@@ -35,3 +35,19 @@ Visual layout prioritizing backlog user stories by activity flows and project it
 
 ## 🛠️ Methodological References
 * **User Story Mapping Guide:** [Plan.io — User Story Mapping](https://plan.io/blog/user-story-mapping/)
+
+Workshop No. 2
+
+Semester: 2026-II
+Professor: Eng. Liliana Marcela Olarte, M.Sc.
+Program: Computer Engineering — Universidad Nacional de Colombia
+
+Main Deliverable Document
+
+All deliverables required for Workshop 2 have been compiled into a single PDF document:
+
+👉 View Complete Workshop 2 Deliverables PDF
+
+Deliverables Index
+
+The compiled PDF contains the deliverables for Workshop 2, organized in the order presented in the document.
