@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build & Cache
+dist/
+build/
+coverage/
+.turbo/
+.expo/
+android/
+ios/
+*.tsbuildinfo
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.p8
+*.jks
+*.keystore
+
+# Logs & OS
+logs/
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db

@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Arriendos Admin",
+    "slug": "arriendos-bogota-admin",
+    "version": "0.1.0",
+    "scheme": "arriendos-admin",
+    "orientation": "default",
+    "platforms": ["android", "ios"],
+    "android": {
+      "package": "co.arriendosbogota.admin"
+    },
+    "ios": {
+      "bundleIdentifier": "co.arriendosbogota.admin",
+      "supportsTablet": true
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-local-authentication"
+    ]
+  }
+}

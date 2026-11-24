@@ -1,0 +1,14 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions"]
+}
+
+datasource db {
+  provider   = "postgresql"
+  url        = env("DATABASE_URL")
+  extensions = [postgis]
+}
+
+// El esquema completo de las 18 tablas del dominio + auxiliares (Release 1..5)
+// se agregará incrementalmente mediante migraciones SQL con soporte PostGIS,
+// índices parciales, GIN/GiST y triggers de inmutabilidad.
