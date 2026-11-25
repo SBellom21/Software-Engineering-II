@@ -22,7 +22,6 @@ export enum PropertyType {
 }
 
 export enum PropertyStatus {
-  DRAFT = 'DRAFT',
   AVAILABLE = 'AVAILABLE',
   OCCUPIED = 'OCCUPIED',
   DEACTIVATED = 'DEACTIVATED',
@@ -74,4 +73,13 @@ export enum InteractionAction {
   REJECT = 'REJECT',
   MATCH = 'MATCH',
   REQUEST = 'REQUEST',
+}
+
+export enum NotificationType {
+  LIKE_RECEIVED = 'LIKE_RECEIVED',
+  MATCH = 'MATCH',
+  VERIFICATION_RESULT = 'VERIFICATION_RESULT',
+  SUSPENSION = 'SUSPENSION',
+  LEASE_CONFIRMATION = 'LEASE_CONFIRMATION',
+  NEW_MESSAGE = 'NEW_MESSAGE',
 }
